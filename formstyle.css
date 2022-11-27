@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+body{
+    background: url(img/maus-tratos.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+.denuncia{
+    border-radius: 5px;
+    color: black;
+}
+
+.containerJulio {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 2px solid #be8f48;
+    width: 450px;
+    max-width: 100%;
+    align-items: center;
+    align-content: center;
+    margin:auto;
+    padding: 25px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    
+}
+
+.headerj {
+    padding: 30px 40px;
+}
+
+.headerj h2 {
+    font-weight: 600;
+    color: black;
+    font-size: 30px;
+}
+
+.form-julio {
+    padding: 0 40px 30px;
+}
+
+.form-control-julio {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control-julio label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-control-julio input {
+    border: 2px solid #3E445B;
+    border-radius: 5px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 100%;
+    padding: 15px;
+}
+
+.form-control-julio.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control-julio.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control-julio.error i.img-error {
+    visibility: visible;
+}
+
+.form-control-julio.success i.img-success {
+    visibility: visible;
+}
+
+.form-control-julio.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control-julio i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control-julio small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.form-julio button {
+    background-color: #6C63FF;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+    margin-top: 5px;
+
+    cursor: pointer;
+}
+
+.form-julio button:hover {
+    background-color: #584ff5;
+    transition: 0.3s;
+}
+

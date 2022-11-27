@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="formstyle.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar col-12  m-auto position-sticky  bg-orange" style="background-color: #FFBD59;">
+
+
+        <div class="container-fluid" style="background-color: #FFBD59;">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.jpg" alt="Logo" width="150" height="70" class="d-inline-block align-text-top">
+
+                <a class="navbar-brand" href="#">DENUNCIE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Doe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+                        </li>
+                    </ul>
+
+                </div>
+        </div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <!--Formulario-->
+    <div class="containerJulio">
+        <div class="headerj">
+            <h2>Faça sua Denuncia</h2>
+        </div>
+        <form class="form-julio" id="form">
+
+            <div class="form-control-julio">
+
+                <label for="username">Nome</label>
+                <input type="text" id="username">
+                <i class="img-success"><img src="img/success-icon.svg" alt=""></i>
+                <i class="img-error"><img src="img/error-icon.svg" alt=""></i>
+
+                <small>Error Message</small>
+
+            </div>
+
+            <div class="form-control-julio">
+
+                <label>Email</label>
+                <input type="email" id="email">
+                <i class="img-success"><img src="img/success-icon.svg" alt=""></i>
+                <i class="img-error"><img src="img/error-icon.svg" alt=""></i>
+
+                <small>Error Message</small>
+
+            </div>
+
+            <div class="form-control-julio">
+
+                <label> Descreva sua Denuncia</label>
+                <textarea class="complaint" id="complaint" cols="40" rows="10" placeholder="Faça sua Denuncia...">
+                </textarea>
+                <i class="img-success"><img src="img/success-icon.svg" alt=""></i>
+                <i class="img-error"><img src="img/error-icon.svg" alt=""></i>
+                <p><small>Error Message</small></p>
+
+
+            </div>
+
+
+            <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+    <footer class="bg-dark text-white pt-5 pb-4">
+
+        <div class="container text-center text-md-left">
+
+
+            <div class="row text-center text-md-left">
+
+
+                <div class="col-md3 col-lg-3 col-x1-3 mx-auto mt-3">
+                    <h1 class="text-uppercase mp-4 font-weight-bold text-warning">PROTEGER</h1>
+
+                    <p>DENUNCIE JÁ</p>
+
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h3 class="text-uppercase mb-4 font-weight-bold text-warning">Forúm</h3>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Cadrastro</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Denuncias</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h3 class="text-uppercase mb-4 font- weight-bold text-warning">Doe</h3>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Conheça as ONGs</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Faça suas doações</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h3 class="text-uppercase mb-4 font- weight-bold text-warning">Contatos</h3>
+                    <p>
+                        <i class="fas fa-home mr-3"></i>Aracaju-SE
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i>proteger@gmail.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i>79998884420
+                    </p>
+                </div>
+
+            </div>
+
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-7 cpl-lg-8">
+                    <p>Feito por:
+                        <a href="#" style="text-decoration:none;">
+                            <strong class="text-warning">Leonardo, Marina e Julio</strong>
+                        </a>
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
